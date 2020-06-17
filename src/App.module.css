@@ -1,0 +1,10 @@
+body {
+    background-color: slategrey;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: snow;
+}

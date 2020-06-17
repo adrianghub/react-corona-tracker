@@ -1,10 +1,16 @@
 import React, { Component } from "react";
 
+import { Cards, Chart, CountryPicker } from "./components";
+
+import classes from "./App.module.css";
+
 class App extends Component {
 	render() {
 		return (
-			<div>
-				<h1>App</h1>
+			<div className={classes.App}>
+				<Cards />
+				<CountryPicker />
+				<Chart />
 			</div>
 		);
 	}
