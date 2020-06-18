@@ -11,7 +11,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 	}
 	const cardInfo = [
 		{
-			title: "Infeced",
+			title: "Confirmed",
 			description: "Number of active cases of COVID-19",
 			class: classes.confirmed,
 			case: confirmed,
