@@ -4,6 +4,7 @@ import { Cards, Chart, CountryPicker } from "./components";
 import { fetchData } from "./api";
 
 import classes from "./App.module.css";
+import coronaImage from "./images/corona.png";
 
 class App extends Component {
 	state = {
@@ -28,8 +29,11 @@ class App extends Component {
 
 		return (
 			<div className={classes.App}>
-				CORONA TRACKER
-				<img src="" alt="" />
+				<img
+					className={classes.image}
+					src={coronaImage}
+					alt="Corona."
+				/>
 				<Cards data={data} />
 				<CountryPicker changed={this.handleCountryChange} />
 				<Chart data={data} country={country} />
