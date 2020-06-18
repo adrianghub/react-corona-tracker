@@ -9,91 +9,63 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 	if (!confirmed) {
 		return "Loading...";
 	}
+	const cardInfo = [
+		{
+			title: "Infeced",
+			description: "Number of active cases of COVID-19",
+			class: classes.confirmed,
+			case: confirmed,
+		},
+		{
+			title: "Recovered",
+			description: "Number of recovered from COVID-19",
+			class: classes.recovered,
+			case: recovered,
+		},
+		{
+			title: "Deaths",
+			description: "Number of deaths from COVID-19",
+			class: classes.deaths,
+			case: deaths,
+		},
+	];
+
+	const cardPopulatedWithInfo = cardInfo.map((card, i) => {
+		const cardItem = (
+			<Grid
+				item
+				component={Card}
+				xs={12}
+				md={3}
+				className={cx(classes.card, card.class)}
+				key={i}
+			>
+				<CardContent>
+					<Typography color="textSecondary" gutterBottom>
+						{card.title}
+					</Typography>
+					<Typography variant="h5">
+						<CountUp
+							start={0}
+							end={card.case.value}
+							duration={2.5}
+							separator=","
+						/>
+					</Typography>
+					<Typography color="textSecondary">
+						{new Date(lastUpdate).toDateString()}
+					</Typography>
+					<Typography variant="body2">{card.description}</Typography>
+				</CardContent>
+			</Grid>
+		);
+		return cardItem;
+	});
 
 	return (
 		<div className={classes.container}>
 			<Grid container spacing={3} justify="center">
-				<Grid
-					item
-					component={Card}
-					xs={12}
-					md={3}
-					className={cx(classes.card, classes.infected)}
-				>
-					<CardContent>
-						<Typography color="textSecondary" gutterBottom>
-							Infected
-						</Typography>
-						<Typography variant="h5">
-							<CountUp
-								start={0}
-								end={confirmed.value}
-								duration={2.5}
-								separator=","
-							/>
-						</Typography>
-						<Typography color="textSecondary">
-							{new Date(lastUpdate).toDateString()}
-						</Typography>
-						<Typography variant="body2">
-							Number of active cases of COVID-19
-						</Typography>
-					</CardContent>
-				</Grid>
-				<Grid
-					item
-					component={Card}
-					xs={12}
-					md={3}
-					className={cx(classes.card, classes.recovered)}
-				>
-					<CardContent>
-						<Typography color="textSecondary" gutterBottom>
-							Recovered
-						</Typography>
-						<Typography variant="h5">
-							<CountUp
-								start={0}
-								end={recovered.value}
-								duration={2.5}
-								separator=","
-							/>
-						</Typography>
-						<Typography color="textSecondary">
-							{new Date(lastUpdate).toDateString()}
-						</Typography>
-						<Typography variant="body2">
-							Number of recoveries from COVID-19
-						</Typography>
-					</CardContent>
-				</Grid>
-				<Grid
-					item
-					component={Card}
-					xs={12}
-					md={3}
-					className={cx(classes.card, classes.deaths)}
-				>
-					<CardContent>
-						<Typography color="textSecondary" gutterBottom>
-							Deaths
-						</Typography>
-						<Typography variant="h5">
-							<CountUp
-								start={0}
-								end={deaths.value}
-								duration={2.5}
-								separator=","
-							/>
-						</Typography>
-						<Typography color="textSecondary">
-							{new Date(lastUpdate).toDateString()}
-						</Typography>
-						<Typography variant="body2">
-							Number of deaths from COVID-19
-						</Typography>
-					</CardContent>
-				</Grid>
+				{cardPopulatedWithInfo}
 			</Grid>
 		</div>
 	);
