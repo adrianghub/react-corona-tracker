@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/adrianghub/react-corona-tracker/static/css/main.4c40f8e7.chunk.css",
-    "main.js": "/adrianghub/react-corona-tracker/static/js/main.1901d245.chunk.js",
-    "main.js.map": "/adrianghub/react-corona-tracker/static/js/main.1901d245.chunk.js.map",
-    "runtime-main.js": "/adrianghub/react-corona-tracker/static/js/runtime-main.a5c0c947.js",
-    "runtime-main.js.map": "/adrianghub/react-corona-tracker/static/js/runtime-main.a5c0c947.js.map",
-    "static/js/2.8b208653.chunk.js": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js",
-    "static/js/2.8b208653.chunk.js.map": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js.map",
-    "index.html": "/adrianghub/react-corona-tracker/index.html",
-    "precache-manifest.c93ba57f89313e3f0b6319675130cb6a.js": "/adrianghub/react-corona-tracker/precache-manifest.c93ba57f89313e3f0b6319675130cb6a.js",
-    "service-worker.js": "/adrianghub/react-corona-tracker/service-worker.js",
-    "static/css/main.4c40f8e7.chunk.css.map": "/adrianghub/react-corona-tracker/static/css/main.4c40f8e7.chunk.css.map",
-    "static/js/2.8b208653.chunk.js.LICENSE.txt": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js.LICENSE.txt",
-    "static/media/corona.png": "/adrianghub/react-corona-tracker/static/media/corona.0e00dcbd.png"
+    "main.css": "/static/css/main.4c40f8e7.chunk.css",
+    "main.js": "/static/js/main.1901d245.chunk.js",
+    "main.js.map": "/static/js/main.1901d245.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6d047b79.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6d047b79.js.map",
+    "static/js/2.a22304ee.chunk.js": "/static/js/2.a22304ee.chunk.js",
+    "static/js/2.a22304ee.chunk.js.map": "/static/js/2.a22304ee.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c6c9510ba302a0f7685a6ffa30416385.js": "/precache-manifest.c6c9510ba302a0f7685a6ffa30416385.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.4c40f8e7.chunk.css.map": "/static/css/main.4c40f8e7.chunk.css.map",
+    "static/js/2.a22304ee.chunk.js.LICENSE.txt": "/static/js/2.a22304ee.chunk.js.LICENSE.txt",
+    "static/media/corona.png": "/static/media/corona.0e00dcbd.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a5c0c947.js",
-    "static/js/2.8b208653.chunk.js",
+    "static/js/runtime-main.6d047b79.js",
+    "static/js/2.a22304ee.chunk.js",
     "static/css/main.4c40f8e7.chunk.css",
     "static/js/main.1901d245.chunk.js"
   ]
