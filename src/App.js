@@ -21,6 +21,8 @@ class App extends Component {
 
 		return (
 			<div className={classes.App}>
+				CORONA TRACKER
+				<img src="" alt="" />
 				<Cards data={data} />
 				<CountryPicker />
 				<Chart />
