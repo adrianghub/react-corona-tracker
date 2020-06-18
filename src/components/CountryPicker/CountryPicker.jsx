@@ -4,7 +4,7 @@ import classes from "./CountryPicker.module.css";
 
 import { fetchCountries } from "../../api/index";
 
-const CountryPicker = () => {
+const CountryPicker = ({ changed }) => {
 	const [fetchedCountries, setFetchedCountries] = useState([]);
 
 	useEffect(() => {
@@ -17,7 +17,10 @@ const CountryPicker = () => {
 
 	return (
 		<FormControl className={classes.formControl}>
-			<NativeSelect>
+			<NativeSelect
+				defaultValue=""
+				onChange={(e) => changed(e.target.value)}
+			>
 				<option value="global">Global</option>
 				{fetchedCountries.map((country, i) => (
 					<option key={i} value={country}>

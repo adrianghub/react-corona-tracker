@@ -8,6 +8,7 @@ import classes from "./App.module.css";
 class App extends Component {
 	state = {
 		data: {},
+		country: "",
 	};
 
 	async componentDidMount() {
@@ -15,6 +16,14 @@ class App extends Component {
 
 		this.setState({ data: fetchedData });
 	}
+
+	handleCountryChange = async (country) => {
+		const fetchedData = await fetchData(country);
+
+		console.log(fetchedData);
+
+		this.setState({ data: fetchedData, country: country });
+	};
 
 	render() {
 		const { data } = this.state;
@@ -24,7 +33,7 @@ class App extends Component {
 				CORONA TRACKER
 				<img src="" alt="" />
 				<Cards data={data} />
-				<CountryPicker />
+				<CountryPicker changed={this.handleCountryChange} />
 				<Chart />
 			</div>
 		);
