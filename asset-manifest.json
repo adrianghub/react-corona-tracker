@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/adrianghub/react-corona-tracker/static/css/main.4c40f8e7.chunk.css",
+    "main.js": "/adrianghub/react-corona-tracker/static/js/main.8781b005.chunk.js",
+    "main.js.map": "/adrianghub/react-corona-tracker/static/js/main.8781b005.chunk.js.map",
+    "runtime-main.js": "/adrianghub/react-corona-tracker/static/js/runtime-main.a5c0c947.js",
+    "runtime-main.js.map": "/adrianghub/react-corona-tracker/static/js/runtime-main.a5c0c947.js.map",
+    "static/js/2.8b208653.chunk.js": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js",
+    "static/js/2.8b208653.chunk.js.map": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js.map",
+    "index.html": "/adrianghub/react-corona-tracker/index.html",
+    "precache-manifest.5eb4c64bc878855f4526c078851b6eac.js": "/adrianghub/react-corona-tracker/precache-manifest.5eb4c64bc878855f4526c078851b6eac.js",
+    "service-worker.js": "/adrianghub/react-corona-tracker/service-worker.js",
+    "static/css/main.4c40f8e7.chunk.css.map": "/adrianghub/react-corona-tracker/static/css/main.4c40f8e7.chunk.css.map",
+    "static/js/2.8b208653.chunk.js.LICENSE.txt": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js.LICENSE.txt",
+    "static/media/corona.png": "/adrianghub/react-corona-tracker/static/media/corona.0e00dcbd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5c0c947.js",
+    "static/js/2.8b208653.chunk.js",
+    "static/css/main.4c40f8e7.chunk.css",
+    "static/js/main.8781b005.chunk.js"
+  ]
+}
