@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c107a2f5465c1edbc52a000c1e26ca6",
+    "revision": "e2fb75f28baa43851cc43545574b85f6",
     "url": "/adrianghub/react-corona-tracker/index.html"
   },
   {
-    "revision": "af3ba98c75b147465272",
+    "revision": "92656eb18d598852f4a3",
     "url": "/adrianghub/react-corona-tracker/static/css/main.4c40f8e7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af3ba98c75b147465272",
-    "url": "/adrianghub/react-corona-tracker/static/js/main.8781b005.chunk.js"
+    "revision": "92656eb18d598852f4a3",
+    "url": "/adrianghub/react-corona-tracker/static/js/main.1901d245.chunk.js"
   },
   {
     "revision": "bed271c8005a3879c7ef",

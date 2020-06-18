@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/adrianghub/react-corona-tracker/static/css/main.4c40f8e7.chunk.css",
-    "main.js": "/adrianghub/react-corona-tracker/static/js/main.8781b005.chunk.js",
-    "main.js.map": "/adrianghub/react-corona-tracker/static/js/main.8781b005.chunk.js.map",
+    "main.js": "/adrianghub/react-corona-tracker/static/js/main.1901d245.chunk.js",
+    "main.js.map": "/adrianghub/react-corona-tracker/static/js/main.1901d245.chunk.js.map",
     "runtime-main.js": "/adrianghub/react-corona-tracker/static/js/runtime-main.a5c0c947.js",
     "runtime-main.js.map": "/adrianghub/react-corona-tracker/static/js/runtime-main.a5c0c947.js.map",
     "static/js/2.8b208653.chunk.js": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js",
     "static/js/2.8b208653.chunk.js.map": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js.map",
     "index.html": "/adrianghub/react-corona-tracker/index.html",
-    "precache-manifest.7fb260216191de1bdf45f2775a53eaf4.js": "/adrianghub/react-corona-tracker/precache-manifest.7fb260216191de1bdf45f2775a53eaf4.js",
+    "precache-manifest.c93ba57f89313e3f0b6319675130cb6a.js": "/adrianghub/react-corona-tracker/precache-manifest.c93ba57f89313e3f0b6319675130cb6a.js",
     "service-worker.js": "/adrianghub/react-corona-tracker/service-worker.js",
     "static/css/main.4c40f8e7.chunk.css.map": "/adrianghub/react-corona-tracker/static/css/main.4c40f8e7.chunk.css.map",
     "static/js/2.8b208653.chunk.js.LICENSE.txt": "/adrianghub/react-corona-tracker/static/js/2.8b208653.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.a5c0c947.js",
     "static/js/2.8b208653.chunk.js",
     "static/css/main.4c40f8e7.chunk.css",
-    "static/js/main.8781b005.chunk.js"
+    "static/js/main.1901d245.chunk.js"
   ]
 }
