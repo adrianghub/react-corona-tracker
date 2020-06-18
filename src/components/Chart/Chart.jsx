@@ -38,11 +38,7 @@ const Chart = () => {
 		/>
 	) : null;
 
-	return (
-		<div>
-			<div className={classes.container}>{lineChart}</div>
-		</div>
-	);
+	return <div className={classes.container}>{lineChart}</div>;
 };
 
 export default Chart;
